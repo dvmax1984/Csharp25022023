@@ -1,0 +1,10 @@
+- Homework
+    - Homework_01
+    - Homework_02
+- Lecture
+    - Lecture_01
+    - Lecture_02
+    - Lecture_03
+- Seminar
+    - Seminar_0
+        - Ex001 [КОД](sdsd)
