@@ -5,25 +5,34 @@
         Console.WriteLine("Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.");
 
         Console.Write("Введите число А = ");
-        string inputA = Console.ReadLine();
+        //string inputA = Console.ReadLine();
+        int a = ReadInt(Console.ReadLine());
 
         Console.Write("Введите число B = ");
-        string inputB = Console.ReadLine();
+        //string inputB = Console.ReadLine();
+        int b = ReadInt(Console.ReadLine());
 
         Console.Write("Введите число C = ");
-        string inputC = Console.ReadLine();
+        //string inputC = Console.ReadLine();
+        int c = ReadInt(Console.ReadLine());
 
-        int a, b, c;
-
-        int.TryParse(inputA, out a);
-        int.TryParse(inputB, out b);
-        int.TryParse(inputC, out c);
+        //int.TryParse(inputA, out a);
+        //int.TryParse(inputB, out b);
+        //int.TryParse(inputC, out c);
 
         // Решим задачу через метод
 
         int max = Max(a, b, c);
         Console.WriteLine("Наибольшее число " + max);
        
+
+        int ReadInt(string message)
+        {
+            //Console.Write(message);
+            int res = Int32.Parse(message); // Console.ReadLine());
+            return res;
+        }
+
 
        
         int Max(int arg1, int arg2, int arg3)
