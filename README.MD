@@ -15,6 +15,11 @@
     - Lecture_01
     - Lecture_02
     - Lecture_03
+
 - Seminar
     - Seminar_0
         - Ex001 [КОД](sdsd)
+
+- Tasks
+    - Ex000
+    - Ex001
