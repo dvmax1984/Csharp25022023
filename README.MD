@@ -1,9 +1,13 @@
 - Homework
     - Homework_01
-        Ex001 [КОД](Homework\Homework_01\Ex001)
-        Ex002 [КОД](Homework\Homework_01\Ex002)
-        Ex003 [КОД](Homework\Homework_01\Ex003)
-        Ex004 [КОД](Homework\Homework_01\Ex004)
+    
+        Ex001 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex001)
+        
+        Ex002 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex002)
+        
+        Ex003 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex003)
+        
+        Ex004 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex004)
 
     - Homework_02
         
