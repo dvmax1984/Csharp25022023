@@ -23,3 +23,5 @@
 - Tasks
     - Ex000 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex000)
     - Ex001 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex001)
+    - Ex002 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex002)
+    - Ex003 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex003)
