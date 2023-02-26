@@ -11,6 +11,6 @@
 
         double x = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine($"{{0}} в квадрате = {{1}} ", x, Math.Pow(x, 2));
+        Console.WriteLine($"{{0}} в квадрате = {{1}} ", x, Math.Pow(x, 2));   // x^2
     }
 }
