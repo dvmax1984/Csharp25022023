@@ -1,5 +1,9 @@
+Contact:
+
+    E-mail: maximgsm@gmail.com
+
 - Homework
-    - Homework_01
+    - **Homework_01**
     
         Ex001 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex001)
         
@@ -9,9 +13,12 @@
         
         Ex004 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex004)
 
-    - Homework_02
+    - **Homework_02**
+
         Ex10 [КОД](/Homework/Homework_02/Ex10/Program.cs)
+
         Ex13 [КОД](/Homework/Homework_02/Ex13/Program.cs)
+
         Ex15 [КОД](/Homework/Homework_02/Ex15/Program.cs)
         
 - Lecture
