@@ -12,6 +12,7 @@
     - Homework_02
         Ex10 [КОД](/Homework/Homework_02/Ex10/Program.cs)
         Ex13 [КОД](/Homework/Homework_02/Ex13/Program.cs)
+        Ex15 [КОД](/Homework/Homework_02/Ex15/Program.cs)
         
 - Lecture
     - Lecture_01
