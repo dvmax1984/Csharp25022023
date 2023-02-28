@@ -39,4 +39,7 @@ Contact:
     - Ex005 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex005_func/Program.cs)
     - Ex006 [КОД](/Tasks/Ex006/Program.cs)
     - Ex007 [КОД](/Tasks/Ex007/Program.cs)
+    - Ex008 [КОД](/Tasks/Ex008/Program.cs)
+    - Ex010 [КОД](/Homework/Homework_02/Ex10/Program.cs)
+    - Ex014 [КОД](/Homework/Homework_02/Ex13/Program.cs)
     - Ex015 [КОД](/Tasks/Ex015_7-23/Program.cs)
