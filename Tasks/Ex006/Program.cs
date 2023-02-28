@@ -8,10 +8,6 @@ int ReadNumber(string text)
     return result;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> TASKEx006
 string GetResult(int n)
 {
     if (n % 2 == 0) 
