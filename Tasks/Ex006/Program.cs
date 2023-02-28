@@ -8,6 +8,7 @@ int ReadNumber(string text)
     return result;
 }
 
+
 string GetResult(int n)
 {
     if (n % 2 == 0) 
