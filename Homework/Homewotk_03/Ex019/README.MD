@@ -8,3 +8,5 @@
 12821 -> да
 
 23432 -> да
+
+![Блок-схема](/Homework/Homewotk_03/Ex019/diagramma.drawio.png)

@@ -5,3 +5,5 @@
 
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125
+
+![Блок-схема](/Homework/Homewotk_03/Ex023/diagramma.drawio.png)

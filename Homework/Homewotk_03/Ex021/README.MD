@@ -14,3 +14,5 @@ L = SQR ((x2 - x1)^2 + (y2 + y1)^2 - (z2 + z1)^2)
 
 
 ![Координатные оси](/Homework/Homewotk_03/Ex021/image.jpg)
+
+![Блок-схема](/Homework/Homewotk_03/Ex021/diagramma.drawio.png)
