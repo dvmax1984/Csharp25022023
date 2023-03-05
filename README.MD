@@ -6,20 +6,27 @@ Contact:
     - **Homework_01**
     
         Ex001 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex001)
+        
         Ex002 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex002)
+        
         Ex003 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex003)
+        
         Ex004 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Homework/Homework_01/Ex004)
 
     - **Homework_02**
 
         Ex10 [КОД](/Homework/Homework_02/Ex10/Program.cs)
+        
         Ex13 [КОД](/Homework/Homework_02/Ex13/Program.cs)
+        
         Ex15 [КОД](/Homework/Homework_02/Ex15/Program.cs)
 
     - **Homework_03**
 
         Ex019 [КОД](/Homework/Homewotk_03/Ex019/Program.cs)
+        
         Ex021 [КОД](/Homework/Homewotk_03/Ex021/Program.cs)
+        
         Ex023 [КОД](/Homework/Homewotk_03/Ex023/Program.cs)
         
 - Lecture
