@@ -2,30 +2,38 @@
 Console.WriteLine("----------------------------------------");
 Console.WriteLine("Принимаем координаты точки B(x1, y1, z1)");
 
-Console.Write("Введите x1: ");
-double x1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите y1: ");
-double y1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите z1: ");
-double z1 = Convert.ToInt32(Console.ReadLine());
+static double GetNumber(string s)
+{
+    Console.Write(s);
+    return Convert.ToInt32(Console.ReadLine());
+}
+
+static double GetResult(double x1, double y1, double z1, double x2, double y2, double z2)
+{
+    // Расчетная формула
+    // L = SQR ((x2 - x1)^2 + (y2 + y1)^2 - (z2 + z1)^2)
+
+    double x = Math.Pow(x2 - x1, 2);
+    double y = Math.Pow(y2 - y1, 2);
+    double z = Math.Pow(z2 - z1, 2);
+
+    double l = Math.Sqrt(x + y + z);
+
+    return Math.Round(l, 2);
+}
+
+double x1 = GetNumber("Введите x1: ");
+double y1 = GetNumber("Введите y1: ");
+double z1 = GetNumber("Введите z1: ");
+
 Console.WriteLine("----------------------------------------");
 Console.WriteLine("Принимаем координаты точки B(x2, y2, z2)");
 
-Console.Write("Введите x2: ");
-double x2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите y2: ");
-double y2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите x2: ");
-double z2 = Convert.ToInt32(Console.ReadLine());
+double x2 = GetNumber("Введите x2: ");
+double y2 = GetNumber("Введите y2: ");
+double z2 = GetNumber("Введите z2: ");
 
-// L = SQR ((x2 - x1)^2 + (y2 + y1)^2 - (z2 + z1)^2)
+double l = GetResult(x1, y1, z1, x2, y2, z2);
 
-double x = Math.Pow(x2 - x1, 2);
-double y = Math.Pow(y2 - y1, 2);
-double z = Math.Pow(z2 - z1, 2);
+Console.WriteLine("Расстояние в пространстве между точками A и B = " + l);
 
-double l = Math.Sqrt(x + y + z);
-
-l = Math.Round(l, 2);
-
-Console.WriteLine("Расстояние в просмтрансве между точками A и B = " + l);
