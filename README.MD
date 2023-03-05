@@ -20,6 +20,10 @@ Contact:
         Ex13 [КОД](/Homework/Homework_02/Ex13/Program.cs)
 
         Ex15 [КОД](/Homework/Homework_02/Ex15/Program.cs)
+
+    - **Homework_03**
+
+        Ex21 [КОД](/Homework/Homewotk_03/Ex021/Program.cs)
         
 - Lecture
     - Lecture_01
