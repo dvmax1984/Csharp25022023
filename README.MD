@@ -24,6 +24,7 @@ Contact:
     - **Homework_03**
 
         Ex21 [КОД](/Homework/Homewotk_03/Ex021/Program.cs)
+        Ex23 [КОД](/Homework/Homewotk_03/Ex023/Program.cs)
         
 - Lecture
     - Lecture_01
