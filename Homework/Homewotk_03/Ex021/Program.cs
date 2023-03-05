@@ -1,26 +1,8 @@
-﻿Console.WriteLine("Задача 21 Напишите метод(-ы), который принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.");
+﻿using static Library;
+
+Console.WriteLine("Задача 21 Напишите метод(-ы), который принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.");
 Console.WriteLine("----------------------------------------");
 Console.WriteLine("Принимаем координаты точки B(x1, y1, z1)");
-
-static double GetNumber(string s)
-{
-    Console.Write(s);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
-static double GetResult(double x1, double y1, double z1, double x2, double y2, double z2)
-{
-    // Расчетная формула
-    // L = SQR ((x2 - x1)^2 + (y2 + y1)^2 - (z2 + z1)^2)
-
-    double x = Math.Pow(x2 - x1, 2);
-    double y = Math.Pow(y2 - y1, 2);
-    double z = Math.Pow(z2 - z1, 2);
-
-    double l = Math.Sqrt(x + y + z);
-
-    return Math.Round(l, 2);
-}
 
 double x1 = GetNumber("Введите x1: ");
 double y1 = GetNumber("Введите y1: ");
