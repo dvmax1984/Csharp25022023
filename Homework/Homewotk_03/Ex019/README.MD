@@ -9,4 +9,4 @@
 
 23432 -> да
 
-![Блок-схема](/Homework/Homewotk_03/Ex019/diagramma2.drawio.png)
+![Блок-схема](diagramma2.drawio.png)
