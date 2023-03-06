@@ -14,6 +14,6 @@
 
 9012 -> 12
 
-[КОД](/Csharp25022023/Homework/Homework_04/Ex027/Program.cs)
+[КОД](Program.cs)
 
-![Блок-схема](/Csharp25022023/Homework/Homework_04/Ex027/diagramma.drawio.png)
+![Блок-схема](diagramma.drawio.png)
