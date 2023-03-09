@@ -20,17 +20,17 @@ public static class Library
     }
     public static string GetResult(int[] array)
     {
-        string res = string.Empty;
-        string sep = "], ";
+        string res = "[";
+        string sep = ", ";
 
         for (int j = 0; j < array.Length; j++)
         {
-            if (j == array.Length)
+            if (j == array.Length - 1)
             {
                 sep = "]";
             }
 
-            res = res + "[" +  array[j] + sep;
+            res = res + array[j] + sep;
         }
         return res;
     }
