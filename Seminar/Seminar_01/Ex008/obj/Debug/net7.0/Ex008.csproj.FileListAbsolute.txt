@@ -1,0 +1,15 @@
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\bin\Debug\net7.0\Ex008.exe
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\bin\Debug\net7.0\Ex008.deps.json
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\bin\Debug\net7.0\Ex008.runtimeconfig.json
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\bin\Debug\net7.0\Ex008.dll
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\bin\Debug\net7.0\Ex008.pdb
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.csproj.AssemblyReference.cache
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.AssemblyInfoInputs.cache
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.AssemblyInfo.cs
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.csproj.CoreCompileInputs.cache
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.dll
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\refint\Ex008.dll
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.pdb
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\Ex008.genruntimeconfig.cache
+C:\Users\Mars\Desktop\GB\Csharp23022023\Seminar\Seminar_01\Ex008\obj\Debug\net7.0\ref\Ex008.dll
