@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static Library1;
+int[] array = new int[12];
