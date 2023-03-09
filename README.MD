@@ -29,6 +29,14 @@ Contact:
         
         Ex023 [КОД](/Homework/Homewotk_03/Ex023/Program.cs)
         
+     - **Homework_04**
+
+        Ex025 [КОД](/Homework/Homework_04/Ex025/Program.cs)
+        
+        Ex027 [КОД](/Homework/Homework_04/Ex027/Program.cs)
+        
+        Ex029 [КОД](/Homework/Homework_04/Ex029/Program.cs)
+        
 - Lecture
     - Lecture_01
     - Lecture_02
