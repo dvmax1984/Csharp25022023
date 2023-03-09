@@ -12,4 +12,4 @@
 [КОД](/Csharp25022023/Homework/Homework_05/Ex034/Program.cs)
 
 
-![Блок схема](/Csharp25022023/Homework/Homework_05/Ex034/diagramma.drawio.png)
+![Блок схема](Homework/Homework_05/Ex034/diagramma.drawio.png)
