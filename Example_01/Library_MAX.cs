@@ -3,9 +3,9 @@
 
 public static class Library_MAX
 {
-    public static void FillArrar(int[] array)
+    public static void FillArray(int[] array)
     {
-        for int i = 0; i < array.Lenght; i++)
+        for (int i = 0; i < array.Lenght; i++)
         {
             array[i] = new Random().Next(-9, 9);
         }
