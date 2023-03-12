@@ -68,3 +68,5 @@ Contact:
     - Ex010 [КОД](/Homework/Homework_02/Ex10/Program.cs)
     - Ex014 [КОД](/Homework/Homework_02/Ex13/Program.cs)
     - Ex015 [КОД](/Tasks/Ex015_7-23/Program.cs)
+
+    - Ex071 [КОД](/Tasks/Ex071/Program.cs)
