@@ -50,6 +50,9 @@ Contact:
     - Lecture_01
     - Lecture_02
     - Lecture_03
+    - Lecture_04
+
+        - Ex000_Matrix (Tetris) [КОД](/Csharp25022023/Lecture/Lecture_04/Ex000_Matrix/Program.cs)
 
 - Seminar
     - Seminar_0
