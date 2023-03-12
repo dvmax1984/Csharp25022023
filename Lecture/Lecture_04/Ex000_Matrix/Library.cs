@@ -14,19 +14,19 @@ public static class Library
 
     public static int[,] ArrRotate90(int[,] arr)
     {
-        int rowEnd = arr.GetLength(0)-1;
-        int colEnd = arr.GetLength(1)-1;
+        int rowEnd = arr.GetLength(0) - 1;
+        int colEnd = arr.GetLength(1) - 1;
         int[,] arrRot2 = new int[arr.GetLength(0), arr.GetLength(1)];
 
-        for (int row = 0; row <= arr.GetLength(0)-1; row++)
+        for (int row = 0; row <= arr.GetLength(0) - 1; row++)
         {
             rowEnd = 3; //arr.GetLength(0);
-            for (int col = 0;  col <= colEnd; col++)
+            for (int col = 0; col <= colEnd; col++)
             {
                 arrRot2[row, col] = arr[rowEnd, row];
-                            
-                            //Console.WriteLine($"arrRot2 = {arrRot2[row, col]} << arr = {arr[row, col]}");
-                
+
+                //Console.WriteLine($"arrRot2 = {arrRot2[row, col]} << arr = {arr[row, col]}");
+
                 //Console.WriteLine($"rowEnd = {rowEnd}");
                 rowEnd = rowEnd - 1;
                 //Console.WriteLine($"rowEnd = {rowEnd}");
