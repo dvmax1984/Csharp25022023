@@ -6,7 +6,15 @@ public static class Library
         {
             for (int col = 0; col < arr.GetLength(1); col++)
             {
-                Console.Write(arr[row, col]);
+                if (arr[row, col] == 0)
+                {
+                    Console.Write("  ");
+                }
+                else
+                {
+                    Console.Write("■ ");
+                }
+                // Console.Write($"{arr[row, col] }");
             }
             Console.WriteLine();
         }
