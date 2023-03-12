@@ -7,5 +7,3 @@ Console.Clear();
 ShowMessage();
 
 Start(pic);
-
-
