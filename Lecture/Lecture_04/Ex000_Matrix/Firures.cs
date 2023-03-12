@@ -1,10 +1,13 @@
 public static class Figures
 {
+    // <summary>
+    // 1 - S, 2 - T, 3 - J, 4 - L, 5 - I, 6 - квадрат, 7 - Z
+    // </summary>
     public static int[,] Figure(int f)
     {
 
         int[,] pic;
-        // 1 - S, 2 - T, 3 - J, 4 - L, 5 - I, 6 - квадрат, 7 - Z
+        
 
         if (f == 1)     /* S змейка */
         {
