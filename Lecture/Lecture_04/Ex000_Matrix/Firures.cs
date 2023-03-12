@@ -11,7 +11,7 @@ public static class Figures
 
         if (f == 1)     /* S змейка */
         {
-            pic = new int[,]   /* S змейка */
+            pic = new int[,] 
                     {   {1,1,0,0},   /* row 0      7, 4, 1   */
                         {0,0,1,1},   /* row 1      8, 5, 2   */
                         {0,0,0,0},
@@ -69,11 +69,11 @@ public static class Figures
         }
         if (f == 7)     /* S змейка обратная*/
         {
-            pic = new int[,]   /* S змейка */
-                    {   {0,0,1,1},   /* row 0      7, 4, 1   */
-                        {1,1,0,0},   /* row 1      8, 5, 2   */
+            pic = new int[,]
+                    {   {0,0,1,1},  
+                        {1,1,0,0},  
                         {0,0,0,0},
-                        {0,0,0,0} }; /* row 3      9, 6, 3   */
+                        {0,0,0,0} };
             return pic;
         }
 
