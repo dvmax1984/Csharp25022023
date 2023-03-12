@@ -1,17 +1,21 @@
 public static class Library
 {
-    public static void PrintArray(int[,] arr)
+    public static void PrintArray(int[,] arr, int x, int y, int turnCW)
     {
+        
+        
         for (int row = 0; row < arr.GetLength(0); row++)
         {
             for (int col = 0; col < arr.GetLength(1); col++)
             {
                 if (arr[row, col] == 0)
                 {
+                    Console.SetCursorPosition(row+x ,col+y);
                     Console.Write("  ");
                 }
                 else
                 {
+                    Console.SetCursorPosition(row+x ,col+y);
                     Console.Write("■ ");
                 }
                 // Console.Write($"{arr[row, col] }");
@@ -28,21 +32,18 @@ public static class Library
 
         for (int row = 0; row <= arr.GetLength(0) - 1; row++)
         {
-            rowEnd = 3; //arr.GetLength(0);
+            rowEnd = arr.GetLength(0)-1;
             for (int col = 0; col <= colEnd; col++)
             {
                 arrRot2[row, col] = arr[rowEnd, row];
 
                 //Console.WriteLine($"arrRot2 = {arrRot2[row, col]} << arr = {arr[row, col]}");
-
                 //Console.WriteLine($"rowEnd = {rowEnd}");
                 rowEnd = rowEnd - 1;
                 //Console.WriteLine($"rowEnd = {rowEnd}");
                 //Console.WriteLine($"col = {col}");
                 //Console.WriteLine($"row = {row}");
             }
-
-            //arrRot2[0, 2] = arr[0, 0];
         }
         return arrRot2;
     }

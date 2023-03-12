@@ -1,21 +1,31 @@
 ﻿using static Library;
 using static Figures;
+int NumFigure = new Random().Next(1, 7);
+int[,] pic = Figure(NumFigure);
 
-// int[,] pic = new int[,]   /* S змейка */
-// { {1,1,0,0},   /* row 0      7, 4, 1   */
-//   {0,0,1,1},   /* row 1      8, 5, 2   */
-//   {0,0,0,0},
-//   {0,0,0,0} }; /* row 2      9, 6, 3   */
+Console.Clear();
+Console.SetCursorPosition(0, 0);
+Console.WriteLine("Нажми на Num pad: 4 / 6 смещение в право/лево | 8 поворот");
 
-int[,] pic = Figure(new Random().Next(1,7));
+int offsetX = 10;
+int turnCW = 0;
+int height = 30;
 
+for (int y = 2; y < height; y++)
+{
+    PrintArray(pic, offsetX, y, turnCW);
 
-PrintArray(pic);
+    var action = Console.ReadKey();
 
-int[,] arrRot = ArrRotate90(pic);
+         if (action.KeyChar == '4') { offsetX -= 1; }
+    else if (action.KeyChar == '6') { offsetX += 1; }
+    else if (action.KeyChar == '8' || action.KeyChar == ' ') { turnCW = 1; }
+
+    if (turnCW == 1) { pic = ArrRotate90(pic); }
+    turnCW = 0;
+    Console.Clear();
+}
+
+/* int[,] arrRot = ArrRotate90(pic);
 Console.WriteLine("--- Поворот на 90 град по часовой стрелке ---");
-PrintArray(arrRot);
-
-int[,] arrRot2 = ArrRotate90(arrRot);
-Console.WriteLine("--- Поворот на 180 град по часовой стрелке ---");
-PrintArray(arrRot2);
+PrintArray(arrRot, 10); */
