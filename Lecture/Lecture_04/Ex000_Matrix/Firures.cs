@@ -5,10 +5,8 @@ public static class Figures
     // </summary>
     public static int[,] Figure(int f)
     {
-
         int[,] pic;
         
-
         if (f == 1)     /* S змейка */
         {
             pic = new int[,] 
@@ -82,7 +80,7 @@ public static class Figures
                     {   {0,0,0,0},
                         {0,0,0,0},
                         {0,0,0,0},
-                        {0,0,01,0} };
+                        {0,0,0,0} };
         return pic;
 
     }
