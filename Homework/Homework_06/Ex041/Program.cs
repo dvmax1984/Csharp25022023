@@ -4,11 +4,7 @@ Console.WriteLine("Задача 41: Пользователь вводит с к�
 
 int[] arrNumber = new int[9];
 
-int count = GetNumber("Введите несколько чисел M:> ", arrNumber, 0, 0);
+int count = GetNumber("Введите несколько чисел M:> ", arrNumber, 0);
 
-Console.WriteLine($"Count = {count} ");
-
-for (int i = 0; i < arrNumber.Length; i++)
-  {
-    Console.WriteLine(arrNumber[i]);
-  }
+int x = CountGreatZero(arrNumber);
+Console.WriteLine($"Введено чисел больше 0 :  {x}");
