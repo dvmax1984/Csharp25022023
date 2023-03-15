@@ -50,6 +50,9 @@ Contact:
     - Lecture_01
     - Lecture_02
     - Lecture_03
+    - Lecture_04
+
+        - Ex000_Matrix (Tetris) [КОД](/Lecture/Lecture_04/Ex000_Matrix/Program.cs)
 
 - Seminar
     - Seminar_0
@@ -68,3 +71,5 @@ Contact:
     - Ex010 [КОД](/Homework/Homework_02/Ex10/Program.cs)
     - Ex014 [КОД](/Homework/Homework_02/Ex13/Program.cs)
     - Ex015 [КОД](/Tasks/Ex015_7-23/Program.cs)
+
+    - Ex071 [КОД](/Tasks/Ex071/Program.cs)
