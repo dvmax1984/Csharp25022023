@@ -4,12 +4,26 @@ public static class Library
     {
         Console.Write(s);
 
-        
-
         int result;
-        while (!int.TryParse(Console.ReadLine(), out result)) ;
+        //while (!int.TryParse(Console.ReadLine(), out result)); // while((result < 0 || result > 9), out result
+        //arr[n] = result;
+        //n += 1;
+
+        while (true)
+        {
+        var input = Console.ReadLine();
+
+        if (int.TryParse(input, out result) && (result >= 0 && result <= 99))
+        break;
+        else
+          {
+        Console.WriteLine("Вввели не двух значное число");
+        Console.Write("Повтори ввод двух значного числа: ");
+          }
+        }
+        
         arr[n] = result;
-        n += 1;
+        n += 1;     
       
         if (n == arr.Length) 
         {
