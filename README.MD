@@ -23,11 +23,11 @@ Contact:
 
     - **Homework_03**
 
-        Ex019 [КОД](/Homework/Homewotk_03/Ex019/Program.cs)
+        Ex019 [КОД](/Homework/Homework_03/Ex019/Program.cs)
         
-        Ex021 [КОД](/Homework/Homewotk_03/Ex021/Program.cs)
+        Ex021 [КОД](/Homework/Homework_03/Ex021/Program.cs)
         
-        Ex023 [КОД](/Homework/Homewotk_03/Ex023/Program.cs)
+        Ex023 [КОД](/Homework/Homework_03/Ex023/Program.cs)
         
      - **Homework_04**
 
@@ -37,7 +37,7 @@ Contact:
         
         Ex029 [КОД](/Homework/Homework_04/Ex029/Program.cs)
 
-     - ## Homework_05
+     - ** Homework_05**
 
         Ex034 [КОД](/Homework/Homework_05/Ex034/Program.cs)
         
@@ -45,11 +45,15 @@ Contact:
         
         Ex038 [КОД](/Homework/Homework_05/Ex038/Program.cs)
         
-     - ## Homework_06
+     - ** Homework_06**
 
         Ex041 [КОД](/Homework/Homework_06/Ex041/Program.cs)
         
         Ex043 [КОД](/Homework/Homework_06/Ex043/Program.cs)
+
+     - ** Homework_07**
+
+        Ex047 [КОД](/Homework/Homework_07/Ex047/Program.cs)
 
         
 - Lecture
