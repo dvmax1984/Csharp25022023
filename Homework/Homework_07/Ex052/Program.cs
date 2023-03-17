@@ -10,20 +10,11 @@ Console.WriteLine();
 double[,] array = new double[5, 6];
 array = FillArray(array);
 
-Console.WriteLine(array.GetLength(0)); // Ряды
-Console.WriteLine(array.GetLength(1)); // Колонки
-  
-
 PrintArray(array);
 
 Console.WriteLine();
+Console.Write("Среднее по столцам: ");  
 
 double[,] ar = new double[array.GetLength(0), array.GetLength(1)]; 
 
-Console.WriteLine("987965");
-
-ar = GetAverageCol(array);
-  
-Console.WriteLine("Gtxfnm");
-  
-PrintArray(ar);
+PrintArray(GetAverageCol(array));

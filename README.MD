@@ -57,6 +57,8 @@ Contact:
 
         Ex050 [КОД](/Homework/Homework_07/Ex050/Program.cs)
 
+        Ex052 [КОД](/Homework/Homework_07/Ex052/Program.cs)
+
         
 - Lecture
     - Lecture_01

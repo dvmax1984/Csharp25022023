@@ -1,20 +1,21 @@
 
 public static class classGetAverageCol
 {
-    public static double[,] GetAverageCol(double[,] array)    // Среднее арифметическое каждого столбца
+    public static double[,] GetAverageCol(double[,] array)          // Среднее арифметическое каждого столбца
     {
         double[,] result = new double[1, array.GetLength(1)];
               
-        for (int i = 0; i < 5; i++)          // Ряды    5
+        for (int col = 0; col < array.GetLength(1); col++)          // Перебор Столбцов
         {
-            for (int j = 0; j < 6; j++)      // Колонки 6 array.GetLength(1)-1
+            for (int row = 0; row < array.GetLength(0); row++)      // Перебор Строк
             {
-                result[0,i] = result[0,i] + array[j,i];
+                result[0,col] = result[0,col] + array[row,col];
             }
             
-            //result[0,i] = result[0,i] / array.GetLength(1);
-        }
-      
+            double res = result[0,col] / array.GetLength(0) ;
+            result[0,col] = Math.Round(res,2);                      // сумму по столбцу делим на кол-во (длину по строкам)            
+        }      
+        
         return result;
     }
 }
