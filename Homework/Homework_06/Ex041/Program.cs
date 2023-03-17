@@ -1,4 +1,4 @@
-using static Library;
+﻿using static Library;
 
 Console.WriteLine("Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.");
 
