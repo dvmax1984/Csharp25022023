@@ -1,4 +1,4 @@
-// Метод заполнения m и n, размер 10х10 задается ранее
+
 public static class classFillArray
 {
     public static double[,] FillArray(double[,] arr)
