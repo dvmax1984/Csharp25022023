@@ -45,13 +45,13 @@ Contact:
         
         Ex038 [КОД](/Homework/Homework_05/Ex038/Program.cs)
         
-     - ** Homework_06**
+     - **Homework_06**
 
         Ex041 [КОД](/Homework/Homework_06/Ex041/Program.cs)
         
         Ex043 [КОД](/Homework/Homework_06/Ex043/Program.cs)
 
-     - ** Homework_07**
+     - **Homework_07**
 
         Ex047 [КОД](/Homework/Homework_07/Ex047/Program.cs)
 
