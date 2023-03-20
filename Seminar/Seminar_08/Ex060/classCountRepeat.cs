@@ -4,7 +4,7 @@ public static class classCountRepeat
     {
         for (int i = 0; i < array.Length; i++)
         {
-            int c = array [i];
+            int c = array[i];
 
             for (int j = 0; j < array.Length; j++)
             {
@@ -13,10 +13,7 @@ public static class classCountRepeat
                     b[i] += 1;
                 }
             }
-
-
         }
-
         return b;
     }
 }
