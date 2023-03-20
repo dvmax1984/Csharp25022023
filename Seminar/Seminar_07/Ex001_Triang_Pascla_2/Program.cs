@@ -1,12 +1,12 @@
 ﻿using static clPascalTriangle;
 
-Console.WriteLine("Треугольник Паскаля, до 30 строк, если выше, то нужно придумать форматировать числа до 4 знаков, k, M, G, T");
+Console.WriteLine("Треугольник Паскаля, до 30 строк, с консолью на полном экране");
 
-int heigth = GetNumber("Введите высоту треугольника, строк: ");
+int heigth = GetNumber("Задайте высоту треугольника в строках: ");
 
 int[,] arr = new int[heigth, heigth*3];
 
-int[,] arrPasc = FillArray(arr, 3, heigth);
+int[,] arrPasc = FillArray(arr, heigth);
 
 PrintArray(arrPasc);
 

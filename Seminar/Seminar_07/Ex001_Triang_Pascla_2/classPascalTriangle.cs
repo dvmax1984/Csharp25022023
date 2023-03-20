@@ -6,16 +6,16 @@ public static class clPascalTriangle
     /// <param name="arr">Аргумент FillArray() сообщает массив для заполнения</param>
     /// <param name="sc">Аргумент FillArray() сообщает шаг</param>
     /// <param name="height">Аргумент FillArray() сообщает высоту треугольника в строках</param>
-    public static int[,] FillArray(int[,] arr, int sc, int height)
+    public static int[,] FillArray(int[,] arr, int height)
     {
-        arr[0, 0] = 1; arr[1, 0] = 1; arr[1, sc] = 1;
+        arr[0, 0] = 1;
 
-        for (int i = 2; i < arr.GetLength(0); i++)              // row
+        for (int i = 1; i < arr.GetLength(0); i++)                    // row
         {
-            for (int j = 0; j < arr.GetLength(1); j += sc)      // col
+            for (int j = 0; j < arr.GetLength(1); j++)                // col
             {
                 if (j == 0) { arr[i, j] = 1; }
-                else { arr[i, j] = arr[i - 1, j - sc] + arr[i - 1, j]; }
+                else { arr[i, j] = arr[i - 1, j - 1] + arr[i - 1, j]; }  
             }
         }
 
@@ -45,7 +45,8 @@ public static class clPascalTriangle
                 arr[row, 0] = LastVal;
             }
             
-            mR += 3; //инкремент mR по уменьшению ряда, чем меньше ряд, тем больше требуется смещение
+            mR += 3;    //инкремент mR по уменьшению ряда, чем меньше ряд, тем больше требуется смещение
+                        //кратно длинне отображаемых символов в столбце, 3 соответстует 5 символам
         }
 
         return arr;
@@ -58,15 +59,15 @@ public static class clPascalTriangle
         {
             for (int n = 0; n < a.GetLength(1); n++)
             {
-                if (a[m, n] >= 1 && a[m, n] <= 9)       Console.Write($"   {a[m, n]}");
-                else if (a[m, n] >= 10 && a[m, n] <= 99)     Console.Write($"  {a[m, n]}");
-                else if (a[m, n] >= 100 && a[m, n] <= 999)   Console.Write($" {a[m, n]}");
-                else if (a[m, n] >= 1000 && a[m, n] <= 9999) Console.Write($"{a[m, n]}");
-                else if (a[m, n] >= 10000 && a[m, n] <= 99999) Console.Write($"{a[m, n]/100}k");
-                else if (a[m, n] >= 100000 && a[m, n] <= 999999) Console.Write($"{a[m, n]/1000}M");
-                else if (a[m, n] >= 1000000 && a[m, n] <= 9999999) Console.Write($"{a[m, n]/10000}G");
-                else if (a[m, n] >= 10000000 && a[m, n] <= 99999999) Console.Write($"{a[m, n]/100000}T");
-                else if (a[m, n] == 0) Console.Write($" ");
+              if (a[m, n] >= 1 && a[m, n] <= 9)                    Console.Write($"    {a[m, n]} ");
+              else if (a[m, n] >= 10 && a[m, n] <= 99)             Console.Write($"   {a[m, n]} ");
+              else if (a[m, n] >= 100 && a[m, n] <= 999)           Console.Write($"  {a[m, n]} ");
+              else if (a[m, n] >= 1000 && a[m, n] <= 9999)         Console.Write($" {a[m, n]} ");
+              else if (a[m, n] >= 10000 && a[m, n] <= 99999)       Console.Write($"  {a[m, n]/1000}k ");
+              else if (a[m, n] >= 100000 && a[m, n] <= 999999)     Console.Write($" {a[m, n]/1000}k ");
+              else if (a[m, n] >= 1000000 && a[m, n] <= 9999999)   Console.Write($"   {a[m, n]/1000000}M ");
+              else if (a[m, n] >= 10000000 && a[m, n] <= 99999999) Console.Write($"  {a[m, n]/1000000}M ");
+              else if (a[m, n] == 0) Console.Write($" ");
             }
             Console.WriteLine();
         }
