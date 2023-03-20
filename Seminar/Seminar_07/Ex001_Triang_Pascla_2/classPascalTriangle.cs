@@ -62,6 +62,10 @@ public static class clPascalTriangle
                 else if (a[m, n] >= 10 && a[m, n] <= 99)     Console.Write($"  {a[m, n]}");
                 else if (a[m, n] >= 100 && a[m, n] <= 999)   Console.Write($" {a[m, n]}");
                 else if (a[m, n] >= 1000 && a[m, n] <= 9999) Console.Write($"{a[m, n]}");
+                else if (a[m, n] >= 10000 && a[m, n] <= 99999) Console.Write($"{a[m, n]/100}k");
+                else if (a[m, n] >= 100000 && a[m, n] <= 999999) Console.Write($"{a[m, n]/1000}M");
+                else if (a[m, n] >= 1000000 && a[m, n] <= 9999999) Console.Write($"{a[m, n]/10000}G");
+                else if (a[m, n] >= 10000000 && a[m, n] <= 99999999) Console.Write($"{a[m, n]/100000}T");
                 else if (a[m, n] == 0) Console.Write($" ");
             }
             Console.WriteLine();
