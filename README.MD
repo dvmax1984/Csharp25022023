@@ -72,6 +72,9 @@ Contact:
     - Seminar_0
         - Ex001 [КОД](sdsd)
 
+    - Seminar_07
+        - Ex000_Triang (Треугольник Паскаля) [КОД](/Seminar/Seminar_07/Ex001_Triang_Pascla_2/Program.cs)
+
 - Tasks
     - Ex000 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex000/Program.cs)
     - Ex001 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex001/Program.cs)
