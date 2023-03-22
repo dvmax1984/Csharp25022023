@@ -34,7 +34,7 @@ public static class clPascalTriangle
 
         for (int row = arr.GetLength(0)-1; row >= 0; row--)
         {  
-            for (int i = 0; i < mR; i++)                 // сдвиг на k
+            for (int i = 0; i < mR; i++)                 // сдвиг на m в право
             {
                 int LastVal = arr[row, n - 1];           //запомнить последнее значение последней колонки
 
