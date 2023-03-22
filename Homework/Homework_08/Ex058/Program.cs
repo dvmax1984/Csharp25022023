@@ -17,7 +17,7 @@ Console.Write(PrintArray(a));
 Console.WriteLine("Матрица B");
 Console.Write(PrintArray(b));
 
-c = MatrixMultiplication(a, b, c);
+c = MatrixProduct(a, b, c);
 
 Console.WriteLine("Результирующая матрица С");
 Console.Write(PrintArray(c));

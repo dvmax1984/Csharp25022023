@@ -1,6 +1,6 @@
 public static class Methods
 {
-    public static int[,] MatrixMultiplication(int[,] a, int[,] b, int[,] c)
+    public static int[,] MatrixProduct(int[,] a, int[,] b, int[,] c)
     {
         for (var i = 0; i < a.GetLength(0); i++)
         {
