@@ -39,3 +39,28 @@ void FillImage(int row, int col)
         FillImage(row, col + 1);
     }
 }
+
+PrintInSpiral(pic, 5)
+          
+void PrintInSpiral(int [,] numbers, int size)
+{
+for(int i = size - 1; j = 0; i >= 0; i--; j++)
+{
+  for(int k = j; k < i; k++)
+  {
+    Console.Write(numbers[j][k]+ " ");
+  }
+  for(int k = j ; k < i; k++) 
+  {
+Console.Write(numbers[k][i]+ " ");
+  }
+for(int k = i ; k > j; k–)
+  {
+Console.Write(numbers[i][k]+ " ");
+  }
+for(int k = i ; k > j; k–)
+  {
+Console.Write(numbers[k][j]+ " ");
+  }
+}
+}

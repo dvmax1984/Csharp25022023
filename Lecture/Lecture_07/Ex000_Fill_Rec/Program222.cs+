@@ -1,0 +1,73 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Collections;
+using System.Text;
+
+namespace Microsoft.SpiralBusted
+{
+class Program
+{
+
+public const int ROW_SIZE = 5;
+public const int COLUMN_SIZE = 6;
+
+static int[,] Array = new int[ROW_SIZE, COLUMN_SIZE]
+{ {1, 2, 3, 4, 5, 6},
+{7, 8, 9, 10, 11, 12},
+{13, 14, 15, 16, 17, 18},
+{19, 20, 21, 22, 23, 24},
+{25, 26, 27, 28, 29, 30} };
+
+
+
+public static void Traverse(int m, int n, bool bGoingUP)
+{
+// print the current node ignore visited node
+if (Array[m, n] != -1)
+{
+Console.Write("{0}", Convert.ToString(Array[m, n]));
+}
+
+// mark the current node as visited
+Array[m, n] = -1;
+
+// Recurse right
+if ((n < COLUMN_SIZE-1) && (Array[m, n + 1] != -1) && !bGoingUP)
+{
+Traverse(m, n + 1, false);
+return;
+}
+
+// Recurse down ***************
+if ((m == 0) && (Array[m, n - 1] != -1) && !bGoingUP)
+{
+Traverse(m, n - 1, false);
+return;
+}
+
+// Recurse up
+// Note: without bGoingUp controller, it will traverse in zigzag style rather than spiral.
+if ((m > 0) && (Array[m - 1, n] != -1))
+{
+Traverse(m - 1, n, true);
+return;
+}
+
+// make another round till it’s finished
+if ((m < ROW_SIZE - 1) && (n < COLUMN_SIZE - 1))
+{
+Traverse (m, n+1, false);
+}
+}
+
+
+
+static void Main(string[] args)
+{
+Traverse(0, 0, false);
+Console.ReadLine();
+}
+
+}
+}
