@@ -23,28 +23,69 @@ Contact:
 
     - **Homework_03**
 
-        Ex019 [КОД](/Homework/Homewotk_03/Ex019/Program.cs)
+        Ex019 [КОД](/Homework/Homework_03/Ex019/Program.cs)
         
-        Ex021 [КОД](/Homework/Homewotk_03/Ex021/Program.cs)
+        Ex021 [КОД](/Homework/Homework_03/Ex021/Program.cs)
         
-        Ex023 [КОД](/Homework/Homewotk_03/Ex023/Program.cs)
+        Ex023 [КОД](/Homework/Homework_03/Ex023/Program.cs)
         
-     - **Homework_04**
+    - **Homework_04**
 
         Ex025 [КОД](/Homework/Homework_04/Ex025/Program.cs)
         
         Ex027 [КОД](/Homework/Homework_04/Ex027/Program.cs)
         
         Ex029 [КОД](/Homework/Homework_04/Ex029/Program.cs)
+
+    - **Homework_05**
+
+        Ex034 [КОД](/Homework/Homework_05/Ex034/Program.cs)
+        
+        Ex036 [КОД](/Homework/Homework_05/Ex036/Program.cs)
+        
+        Ex038 [КОД](/Homework/Homework_05/Ex038/Program.cs)
+        
+    - **Homework_06**
+
+        Ex041 [КОД](/Homework/Homework_06/Ex041/Program.cs)
+        
+        Ex043 [КОД](/Homework/Homework_06/Ex043/Program.cs)
+
+    - **Homework_07**
+
+        Ex047 [КОД](/Homework/Homework_07/Ex047/Program.cs)
+
+        Ex050 [КОД](/Homework/Homework_07/Ex050/Program.cs)
+
+        Ex052 [КОД](/Homework/Homework_07/Ex052/Program.cs)
+
+    - ***Homework_08***
+
+        Ex054 [КОД](/Homework/Homework_08/Ex054/Program.cs)
+
+        Ex056 [КОД](/Homework/Homework_08/Ex056/Program.cs)
+
+        Ex058 [КОД](/Homework/Homework_08/Ex058/Program.cs)
+
+        Ex062 [КОД](/Homework/Homework_08/Ex062/Program.cs)
+
+
+
         
 - Lecture
     - Lecture_01
     - Lecture_02
     - Lecture_03
+    - Lecture_04
+
+        - Ex000_Matrix (Tetris) [КОД](/Lecture/Lecture_04/Ex000_Matrix/Program.cs)
 
 - Seminar
     - Seminar_0
         - Ex001 [КОД](sdsd)
+
+    - Seminar_07
+        - Ex000_Triang (Треугольник Паскаля) [КОД](/Seminar/Seminar_07/Ex001_Triang_Pascla_2/Program.cs)
 
 - Tasks
     - Ex000 [КОД](https://github.com/dvmax1984/Csharp25022023/tree/main/Tasks/Ex000/Program.cs)
@@ -59,3 +100,5 @@ Contact:
     - Ex010 [КОД](/Homework/Homework_02/Ex10/Program.cs)
     - Ex014 [КОД](/Homework/Homework_02/Ex13/Program.cs)
     - Ex015 [КОД](/Tasks/Ex015_7-23/Program.cs)
+
+    - Ex071 [КОД](/Tasks/Ex071/Program.cs)
