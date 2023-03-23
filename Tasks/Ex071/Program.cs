@@ -1,8 +1,8 @@
-﻿using static Library;
+﻿using static Method;
 
-Console.WriteLine("71. Написать программу вычисления функции Аккермана A(n, m)");
+Console.WriteLine("\n Вычисление функции Аккермана с помощью рекурсии.\n");
 
-ulong n = GetNumber("Введите число n: ");
-ulong m = GetNumber("Введите число m: ");
+ulong  m = GetNumber("Введите число m: ");
+ulong  n = GetNumber("Введите число n: ");
 
-Console.WriteLine($"Результат вычисления функции Аккермана A({n}, {m}) = " + A(n, m));
+Console.WriteLine($"\n Результат вычисления функции Аккермана A({m}, {n}) = " + A(m, n));
