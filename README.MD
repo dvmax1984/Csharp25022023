@@ -67,6 +67,8 @@ Contact:
 
         Ex058 [КОД](/Homework/Homework_08/Ex058/Program.cs)
 
+        Ex060 [КОД](/Homework/Homework_08/Ex060/Program.cs)
+
         Ex062 [КОД](/Homework/Homework_08/Ex062/Program.cs)
 
 
