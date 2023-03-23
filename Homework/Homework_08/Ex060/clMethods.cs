@@ -1,35 +1,35 @@
 public static class MethodCheck
 {
-  public static int[,,] FillArrayUniqValue(int[,,] array) 
-{
-for (int b = 0; b < array.GetLength(2); b++)
-{
-    for (int r = 0; r < array.GetLength(0); r++)
+    public static int[,,] FillArrayUniqValue(int[,,] array)
     {
-        for (int c = 0; c < array.GetLength(1); c++)
+        for (int b = 0; b < array.GetLength(2); b++)
         {
-         //int value2check = 0;// new Random().Next(10, 18);
-
-                bool isUnique;
-                do
+            for (int r = 0; r < array.GetLength(0); r++)
+            {
+                for (int c = 0; c < array.GetLength(1); c++)
                 {
-                    array[r,c,b] = new Random().Next(10, 99);
-                    isUnique = true;
-                    
-                    // если найдено проверяемое значение, то оно не уникально
-                    if (CheckIsValueInArray(array[r,c,b], array))                  
+                    //int value2check = 0;// new Random().Next(10, 18);
+
+                    bool isUnique;
+                    do
+                    {
+                        array[r, c, b] = new Random().Next(10, 99);
+                        isUnique = true;
+
+                        // если найдено проверяемое значение, то оно не уникально
+                        if (CheckIsValueInArray(array[r, c, b], array))
                         {
                             isUnique = false;
                             break;
                         }
-                } while (!isUnique);
+                    } while (!isUnique);
+                }
+            }
         }
+        return array;
     }
-}
-  return array;
-}  
-  
-  public static bool CheckIsValueInArray(int checkValue, int[,,] array)
+
+    public static bool CheckIsValueInArray(int checkValue, int[,,] array)
     {
         for (int b = 0; b < array.GetLength(2); b++)
         {
@@ -39,16 +39,16 @@ for (int b = 0; b < array.GetLength(2); b++)
                 {
                     // если найдено проверяемое значение, то вернуть TRUE и выйти из циклов
                     if (checkValue == array[r, c, b])
-                  {
-                    Console.WriteLine($"есть такое {checkValue} в ячейке: {r}, {c}, {b}");
-                    return true; 
+                    {
+                        Console.WriteLine($"есть такое {checkValue} в ячейке: {r}, {c}, {b}");
+                        return true;
                     }
-                  else 
-                  { 
-                    Console.WriteLine($"нет такого");
-                    return false; 
+                    else
+                    {
+                        Console.WriteLine($"нет такого");
+                        return false;
                     }
-                  
+
                 }
             }
         }
@@ -65,11 +65,11 @@ for (int b = 0; b < array.GetLength(2); b++)
             {
                 for (int c = 0; c < array.GetLength(1); c++)
                 {
-                  result += $" {array[r, c, b]}({r},{c},{b})";
+                    result += $" {array[r, c, b]}({r},{c},{b})";
                 }
-            result += $"\n";  
+                result += $"\n";
             }
-          result += $"\n";
+            result += $"\n";
         }
         return result;
     }
