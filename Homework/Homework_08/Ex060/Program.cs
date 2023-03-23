@@ -7,27 +7,10 @@
         34(1,0,0) 41(1,1,0)
         27(0,0,1) 90(0,1,1)
         26(1,0,1) 55(1,1,1)*/
-
-using static clMethod;
-
-Console.WriteLine("Hello, World!");
+using static MethodCheck;
 
 int[,,] array = new int[2, 2, 2];  //row - r, col - c, block - b
 
-
-for (int b = 0; b < array.GetLength(3); b++)
-{
-    for (int r = 0; r < array.GetLength(0); r++)
-    {
-        for (int c = 0; c < array.GetLength(1); c++)
-        {
-            int value2check = new Random().Next(10, 99);
-            if (CheckIsValueInArray(value2check, array))
-            {
-                array[r, c, b] = value2check;
-            }
-        }
-    }
-}
+array = FillArrayUniqValue(array);
 
 Console.Write(PrintArray3D(array));
