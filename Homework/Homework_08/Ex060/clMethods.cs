@@ -10,19 +10,19 @@ public static class MethodCheck
                 {
                     //int value2check = 0;// new Random().Next(10, 18);
 
-                    bool isUnique;
+                    bool ValisUnique;
                     do
                     {
                         array[r, c, b] = new Random().Next(10, 99);
-                        isUnique = true;
+                        ValisUnique = true;
 
                         // если найдено проверяемое значение, то оно не уникально
                         if (CheckIsValueInArray(array[r, c, b], array))
                         {
-                            isUnique = false;
+                            ValisUnique = false;
                             break;
                         }
-                    } while (!isUnique);
+                    } while (!ValisUnique);
                 }
             }
         }
@@ -40,12 +40,12 @@ public static class MethodCheck
                     // если найдено проверяемое значение, то вернуть TRUE и выйти из циклов
                     if (checkValue == array[r, c, b])
                     {
-                        Console.WriteLine($"есть такое {checkValue} в ячейке: {r}, {c}, {b}");
+                        //Console.WriteLine($"есть такое {checkValue} в ячейке: {r}, {c}, {b}");
                         return true;
                     }
                     else
                     {
-                        Console.WriteLine($"нет такого");
+                        //Console.WriteLine($"нет такого");
                         return false;
                     }
 
