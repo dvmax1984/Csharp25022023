@@ -75,8 +75,9 @@ Contact:
 
         Ex064 [КОД](/Homework/Homework_09/Ex064/Program.cs)
 
-        Ex068 [КОД](/Homework/Homework_09/Ex068/Program.cs)
+        Ex066 [КОД](/Homework/Homework_09/Ex066/Program.cs)
 
+        Ex068 [КОД](/Homework/Homework_09/Ex068/Program.cs)
         
 - Lecture
     - Lecture_01
