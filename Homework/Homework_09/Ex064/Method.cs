@@ -7,6 +7,7 @@ public static class Method
         while (!int.TryParse(Console.ReadLine(), out result)) ;
         return result;
     }
+  
     public static void GetResult(int n)
     {
         if (n > 1) Console.Write($"{n}, "); 
