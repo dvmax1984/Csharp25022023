@@ -7,8 +7,8 @@ using static Method;
 
 Console.WriteLine($"\n Программа, расчитывает сумму натуральных элементов в промежутке от M до N. \n");
 
-int  m = GetNumber("Введите число M: ");
-int  n = GetNumber("Введите число N: ");
+int m = GetNumber("Введите число M: ");
+int n = GetNumber("Введите число N: ");
 
 int sum = GetSumNatural(m, n);
 int sumRec = GetSumNaturalRec(m, n);
