@@ -1,4 +1,4 @@
-public static class Lybrary
+public static class Library
 {
     public static int[,] ArrRotate90(int[,] arr)
     {
